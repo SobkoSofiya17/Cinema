@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct SignInView: View {
-    @StateObject var login = Login()
+    @StateObject var login = LoginViewModel()
     @Binding var numberPage: Int
     @State var email = "vasya@mail.com"
     @State var password = "qwerty"
     @State var showAlert = false
     @State var msg = ""
-    @StateObject var covers = Cover()
     var body: some View {
         ZStack{
             Color("background")
@@ -28,7 +27,7 @@ struct SignInView: View {
                
                 VStack(spacing: 16){
                     CustomTextField(text: $email, placeholder: Text("E-mail"))
-               CustomSecureField(text: $password, placeholder: Text("Пароль"))
+                    CustomSecureField(text: $password, placeholder: Text("Пароль"))
                 }
                 .padding(.top)
                 Spacer()

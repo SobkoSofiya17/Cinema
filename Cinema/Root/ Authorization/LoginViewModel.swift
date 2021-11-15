@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class Login: ObservableObject{
+class LoginViewModel: ObservableObject{
     
     func login(email: String, password: String, con: ((_ result: String, _ error: String) -> Void )? = nil){
         let url = "http://cinema.areas.su/auth/login"
