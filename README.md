@@ -1,9 +1,28 @@
-# Cinema
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 10 53](https://user-images.githubusercontent.com/94358378/141763580-6afb78d4-98ed-4bc4-b6b8-4cb7385a2710.png)
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 13 17](https://user-images.githubusercontent.com/94358378/141763626-1ad71c6a-141c-4c42-b798-aacb98d76f01.png)
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 13 33](https://user-images.githubusercontent.com/94358378/141763679-114214aa-c57d-4c49-9c32-29d7e3cefc50.png)
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 13 43](https://user-images.githubusercontent.com/94358378/141763710-6c4da436-ca11-4d12-b3e9-7e313ed9d602.png)
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 14 06](https://user-images.githubusercontent.com/94358378/141763780-546ec710-d2f3-46fd-bf92-96f55702c251.png)
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 14 28](https://user-images.githubusercontent.com/94358378/141763850-3b9ef3b5-ae42-4306-b73b-a94a58cd9aa1.png)
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 14 39](https://user-images.githubusercontent.com/94358378/141763868-1e39d65a-f9ef-494d-a657-9941101a5d9e.png)
-![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 13 15 05](https://user-images.githubusercontent.com/94358378/141763933-d7b52ee0-dfaf-4431-a65f-fdc9ce9f8e10.png)
+# World Cinema 
+
+![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 14 09 06](https://user-images.githubusercontent.com/94358378/141773272-8e5db57e-e124-46bb-9aaf-66b8f2f35e4e.png)
+![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 14 09 20](https://user-images.githubusercontent.com/94358378/141773274-b4e8a5c4-d225-4e4f-8bba-004c6125dfd3.png)
+
+![Simulator_Screen_Recording_-_iPhone_12_-_2021-11-15_at_14 12 07](https://user-images.githubusercontent.com/94358378/141773536-d40c216a-c8b4-4b69-bfef-09f3cf0675b1.gif)
+![Запись_экрана_2021-11-15_в_14 00 47](https://user-images.githubusercontent.com/94358378/141773492-a17ed5d3-cb01-42b3-b06e-fa7339582c5a.gif)
+
+![Simulator_Screen_Recording_-_iPhone_12_-_2021-11-15_at_14 12 51](https://user-images.githubusercontent.com/94358378/141773542-082905c9-55de-4685-8599-3647fb2f62eb.gif)
+![Simulator_Screen_Recording_-_iPhone_12_-_2021-11-15_at_14 10 06](https://user-images.githubusercontent.com/94358378/141773534-5993b396-a0df-477b-967e-5e012c5478e0.gif)
+
+Краткое описание: Тематический проект для бесплатного просмотра сериалов, с реализованным функционалом загрузки с апи фото и видеофайлов.
+
+Основной используемый стэк:  SwiftUI, Alamofire, SwiftyJSON, RealmSwift, VideoPlayer, SDWebImageSwiftUI.
+
+1. Проект написан на SwiftUI
+2. Кастомные ячейки и экраны
+3. Реализована возможность загрузки аватара пользователя через галарею на сервер.
+4. Подобран дизайн, добавлен AppIcon, LaunchScreen
+5. Реализована возможность просмотра подробной инофрмации о сериале
+6. Реализована возмоность просмотра трейлера и эпизодов
+7. Реализована возможность добавлять новые коллекции сериалов через RealmSwift.
+
+# Инструкция по установке
+
+Скачать приложение https://github.com/SobkoSofiya17/Cinema.git
+
+Запустить файл Cinema.xcworkspace
